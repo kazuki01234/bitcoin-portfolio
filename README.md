@@ -51,7 +51,7 @@ Recommended Python 3.8+
 ##  Usage
 CLI
 ```bash
-python src/main.py
+python -m src.main
 ```
 - Wallet auto-generates if none exists
 - Retrieve testnet addresses
@@ -59,11 +59,17 @@ python src/main.py
 
 GUI
 ```bash
-python src/gui.py
+python -m src.gui
 ```
 - User-friendly GUI for wallet operations
 - QR code display for addresses and transactions
 - Faucet assistance for easy testnet coin funding
+
+## GUI Preview
+Below is a screenshot of the Tkinter-based GUI interface:
+<p>
+  <img src="images/gui.png" alt="Bitcoin Wallet GUI" width="300">
+</p>
 
 ##  Broadcasting Options
 - Broadcast via P2P socket communication directly to nodes

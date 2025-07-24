@@ -58,7 +58,7 @@ def launch_gui():
             self.qr_button.pack()
             
             # Button to open testnet faucet page
-            self.faucet_button = tk.Button(master, text="Testnet Faucet申請", command=lambda: open_faucet_page(self.wallet.address))
+            self.faucet_button = tk.Button(master, text="Open Testnet Faucet", command=lambda: open_faucet_page(self.wallet.address))
             self.faucet_button.pack()
             
             # Button to check current balance
